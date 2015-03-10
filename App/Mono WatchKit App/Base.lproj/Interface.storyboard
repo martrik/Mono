@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="7515.2" systemVersion="14D72i" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7512"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3737"/>
+    </dependencies>
+    <scenes>
+        <!--MainIC-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="MOMainIC" customModule="Mono_WatchKit_Extension">
+                    <items>
+                        <imageView width="0.65000000000000002" height="0.80000000000000004" alignment="center" image="mono_happy-1" id="L9r-Zw-CGl"/>
+                        <button width="0.50000000000000011" height="0.14999999999999999" alignment="center" title="Levels" id="ANG-vW-ryh">
+                            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            <connections>
+                                <action selector="buttonAction" destination="AgC-eL-Hgc" id="LTe-0O-x51"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <menu key="menu" id="lDn-Eg-EgX">
+                        <items>
+                            <menuItem title="Play" icon="accept" id="KEd-sO-yaQ">
+                                <connections>
+                                    <action selector="playActivity" destination="AgC-eL-Hgc" id="BHA-FS-pRX"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Sleep" icon="add" id="CUX-Rv-52b">
+                                <connections>
+                                    <action selector="sleepActivity" destination="AgC-eL-Hgc" id="VQW-aF-Kmh"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Eat" icon="block" id="1dI-QS-7FQ">
+                                <connections>
+                                    <action selector="eatActivity" destination="AgC-eL-Hgc" id="efY-CG-ayD"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Shower" icon="maybe" id="5yg-Is-RLM">
+                                <connections>
+                                    <action selector="showerActivity" destination="AgC-eL-Hgc" id="sQ1-PT-yMi"/>
+                                </connections>
+                            </menuItem>
+                        </items>
+                    </menu>
+                    <connections>
+                        <outlet property="button" destination="ANG-vW-ryh" id="7Tb-qE-ESI"/>
+                        <outlet property="mono" destination="L9r-Zw-CGl" id="zjU-2w-ngs"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="298" y="344"/>
+        </scene>
+        <!--Levels-->
+        <scene sceneID="2Nb-RV-QDG">
+            <objects>
+                <controller identifier="levels" title="Levels" id="Fe8-ic-5B0" customClass="MOLevelsIC" customModule="Mono_WatchKit_Extension">
+                    <items>
+                        <label height="25" alignment="left" text="Health:" id="PZM-Du-21G"/>
+                        <label height="25" alignment="left" text="Energy:" id="6JD-Ay-90i"/>
+                        <label height="25" alignment="left" text="Happiness:" id="NCl-NT-2RC"/>
+                        <separator alignment="left" id="Avv-u7-1TM"/>
+                        <label alignment="center" text="mono is" textAlignment="left" numberOfLines="2" id="SEh-GZ-Gu8">
+                            <fontDescription key="font" style="UICTFontTextStyleHeadline"/>
+                        </label>
+                    </items>
+                    <connections>
+                        <outlet property="actionLabel" destination="SEh-GZ-Gu8" id="dQS-wb-pf9"/>
+                        <outlet property="energyLabel" destination="6JD-Ay-90i" id="mk9-5J-PfR"/>
+                        <outlet property="happinessLabel" destination="NCl-NT-2RC" id="CfA-Jn-6LJ"/>
+                        <outlet property="healthLabel" destination="PZM-Du-21G" id="v6r-NO-Xw7"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="511" y="344"/>
+        </scene>
+        <!--Static Notification Interface Controller-->
+        <scene sceneID="AEw-b0-oYE">
+            <objects>
+                <notificationController id="YCC-NB-fut">
+                    <items>
+                        <label alignment="left" text="Alert Label" id="IdU-wH-bcW"/>
+                    </items>
+                    <notificationCategory key="notificationCategory" id="JfB-70-Muf"/>
+                    <connections>
+                        <outlet property="notificationAlertLabel" destination="IdU-wH-bcW" id="JKC-fr-R95"/>
+                        <segue destination="4sK-HA-Art" kind="relationship" relationship="dynamicNotificationInterface" id="kXh-Jw-8B1"/>
+                    </connections>
+                </notificationController>
+            </objects>
+            <point key="canvasLocation" x="220" y="643"/>
+        </scene>
+        <!--Notification Controller-->
+        <scene sceneID="ZPc-GJ-vnh">
+            <objects>
+                <controller id="4sK-HA-Art" customClass="NotificationController" customModule="Mono_WatchKit_App" customModuleProvider="target"/>
+            </objects>
+            <point key="canvasLocation" x="468" y="643"/>
+        </scene>
+    </scenes>
+</document>

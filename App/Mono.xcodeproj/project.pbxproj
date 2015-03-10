@@ -1,0 +1,728 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		411A37EC1A7E548B00B0A182 /* MOMainIC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411A37EB1A7E548B00B0A182 /* MOMainIC.swift */; };
+		411A37EE1A7E548B00B0A182 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411A37ED1A7E548B00B0A182 /* NotificationController.swift */; };
+		411A37F01A7E548B00B0A182 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 411A37EF1A7E548B00B0A182 /* Images.xcassets */; };
+		411A37F41A7E548B00B0A182 /* Mono WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 411A37F31A7E548B00B0A182 /* Mono WatchKit App.app */; };
+		411A37FC1A7E548B00B0A182 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 411A37FA1A7E548B00B0A182 /* Interface.storyboard */; };
+		411A37FE1A7E548B00B0A182 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 411A37FD1A7E548B00B0A182 /* Images.xcassets */; };
+		411A38011A7E548B00B0A182 /* Mono WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 411A37E61A7E548B00B0A182 /* Mono WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4126B9831A7E973A0017BD6B /* RLMSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41FCCCCC1A7D3CBE0041DECF /* RLMSupport.swift */; };
+		4126B9841A7E973C0017BD6B /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41FCCCCA1A7D3CB40041DECF /* Realm.framework */; };
+		4126B9851A7E973F0017BD6B /* libc++.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 41FCCCCE1A7D3CCD0041DECF /* libc++.1.dylib */; };
+		4159AC2D1A7E64C200ECA5D4 /* MOMonoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4174EBD01A7D3D830056F101 /* MOMonoManager.swift */; };
+		4174EBD11A7D3D830056F101 /* MOMonoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4174EBD01A7D3D830056F101 /* MOMonoManager.swift */; };
+		41FCCCAB1A7D3C8E0041DECF /* MOAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41FCCCAA1A7D3C8E0041DECF /* MOAppDelegate.swift */; };
+		41FCCCAD1A7D3C8E0041DECF /* MOMainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41FCCCAC1A7D3C8E0041DECF /* MOMainVC.swift */; };
+		41FCCCB01A7D3C8E0041DECF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41FCCCAE1A7D3C8E0041DECF /* Main.storyboard */; };
+		41FCCCB21A7D3C8E0041DECF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41FCCCB11A7D3C8E0041DECF /* Images.xcassets */; };
+		41FCCCB51A7D3C8E0041DECF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41FCCCB31A7D3C8E0041DECF /* LaunchScreen.xib */; };
+		41FCCCC11A7D3C8E0041DECF /* MonoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41FCCCC01A7D3C8E0041DECF /* MonoTests.swift */; };
+		41FCCCCB1A7D3CB40041DECF /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41FCCCCA1A7D3CB40041DECF /* Realm.framework */; };
+		41FCCCCD1A7D3CBE0041DECF /* RLMSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41FCCCCC1A7D3CBE0041DECF /* RLMSupport.swift */; };
+		41FCCCCF1A7D3CCD0041DECF /* libc++.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 41FCCCCE1A7D3CCD0041DECF /* libc++.1.dylib */; };
+		41FCEC461A86787C00A008FE /* MOLevelsIC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41FCEC441A86767400A008FE /* MOLevelsIC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		411A37F51A7E548B00B0A182 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41FCCC9D1A7D3C8E0041DECF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 411A37F21A7E548B00B0A182;
+			remoteInfo = "Mono WatchKit App";
+		};
+		411A37FF1A7E548B00B0A182 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41FCCC9D1A7D3C8E0041DECF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 411A37E51A7E548B00B0A182;
+			remoteInfo = "Mono WatchKit Extension";
+		};
+		41FCCCBB1A7D3C8E0041DECF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41FCCC9D1A7D3C8E0041DECF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41FCCCA41A7D3C8E0041DECF;
+			remoteInfo = Mono;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		411A38081A7E548B00B0A182 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				411A38011A7E548B00B0A182 /* Mono WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		411A37E61A7E548B00B0A182 /* Mono WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Mono WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		411A37E91A7E548B00B0A182 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		411A37EA1A7E548B00B0A182 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		411A37EB1A7E548B00B0A182 /* MOMainIC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MOMainIC.swift; sourceTree = "<group>"; };
+		411A37ED1A7E548B00B0A182 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		411A37EF1A7E548B00B0A182 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		411A37F31A7E548B00B0A182 /* Mono WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mono WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		411A37F91A7E548B00B0A182 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		411A37FB1A7E548B00B0A182 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		411A37FD1A7E548B00B0A182 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4174EBD01A7D3D830056F101 /* MOMonoManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MOMonoManager.swift; sourceTree = "<group>"; };
+		41FCCCA51A7D3C8E0041DECF /* Mono.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mono.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		41FCCCA91A7D3C8E0041DECF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41FCCCAA1A7D3C8E0041DECF /* MOAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MOAppDelegate.swift; sourceTree = "<group>"; };
+		41FCCCAC1A7D3C8E0041DECF /* MOMainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MOMainVC.swift; sourceTree = "<group>"; };
+		41FCCCAF1A7D3C8E0041DECF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		41FCCCB11A7D3C8E0041DECF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		41FCCCB41A7D3C8E0041DECF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		41FCCCBA1A7D3C8E0041DECF /* MonoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MonoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		41FCCCBF1A7D3C8E0041DECF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41FCCCC01A7D3C8E0041DECF /* MonoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonoTests.swift; sourceTree = "<group>"; };
+		41FCCCCA1A7D3CB40041DECF /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Realm.framework; sourceTree = "<group>"; };
+		41FCCCCC1A7D3CBE0041DECF /* RLMSupport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RLMSupport.swift; sourceTree = "<group>"; };
+		41FCCCCE1A7D3CCD0041DECF /* libc++.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.1.dylib"; path = "usr/lib/libc++.1.dylib"; sourceTree = SDKROOT; };
+		41FCEC441A86767400A008FE /* MOLevelsIC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MOLevelsIC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		411A37E31A7E548B00B0A182 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4126B9841A7E973C0017BD6B /* Realm.framework in Frameworks */,
+				4126B9851A7E973F0017BD6B /* libc++.1.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41FCCCA21A7D3C8E0041DECF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41FCCCCF1A7D3CCD0041DECF /* libc++.1.dylib in Frameworks */,
+				41FCCCCB1A7D3CB40041DECF /* Realm.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41FCCCB71A7D3C8E0041DECF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		411A37E71A7E548B00B0A182 /* Mono WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				411A37EB1A7E548B00B0A182 /* MOMainIC.swift */,
+				41FCEC441A86767400A008FE /* MOLevelsIC.swift */,
+				411A37ED1A7E548B00B0A182 /* NotificationController.swift */,
+				411A37EF1A7E548B00B0A182 /* Images.xcassets */,
+				411A37E81A7E548B00B0A182 /* Supporting Files */,
+			);
+			path = "Mono WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		411A37E81A7E548B00B0A182 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				411A37E91A7E548B00B0A182 /* Info.plist */,
+				411A37EA1A7E548B00B0A182 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		411A37F71A7E548B00B0A182 /* Mono WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				411A37FA1A7E548B00B0A182 /* Interface.storyboard */,
+				411A37FD1A7E548B00B0A182 /* Images.xcassets */,
+				411A37F81A7E548B00B0A182 /* Supporting Files */,
+			);
+			path = "Mono WatchKit App";
+			sourceTree = "<group>";
+		};
+		411A37F81A7E548B00B0A182 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				411A37F91A7E548B00B0A182 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		41FCCC9C1A7D3C8E0041DECF = {
+			isa = PBXGroup;
+			children = (
+				41FCCCA71A7D3C8E0041DECF /* Mono */,
+				41FCCCBD1A7D3C8E0041DECF /* MonoTests */,
+				411A37E71A7E548B00B0A182 /* Mono WatchKit Extension */,
+				411A37F71A7E548B00B0A182 /* Mono WatchKit App */,
+				41FCCCA61A7D3C8E0041DECF /* Products */,
+				41FCCCCC1A7D3CBE0041DECF /* RLMSupport.swift */,
+				41FCCCCE1A7D3CCD0041DECF /* libc++.1.dylib */,
+				41FCCCCA1A7D3CB40041DECF /* Realm.framework */,
+			);
+			sourceTree = "<group>";
+		};
+		41FCCCA61A7D3C8E0041DECF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				41FCCCA51A7D3C8E0041DECF /* Mono.app */,
+				41FCCCBA1A7D3C8E0041DECF /* MonoTests.xctest */,
+				411A37E61A7E548B00B0A182 /* Mono WatchKit Extension.appex */,
+				411A37F31A7E548B00B0A182 /* Mono WatchKit App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		41FCCCA71A7D3C8E0041DECF /* Mono */ = {
+			isa = PBXGroup;
+			children = (
+				41FCCCAA1A7D3C8E0041DECF /* MOAppDelegate.swift */,
+				41FCCCAC1A7D3C8E0041DECF /* MOMainVC.swift */,
+				4174EBD01A7D3D830056F101 /* MOMonoManager.swift */,
+				41FCCCA81A7D3C8E0041DECF /* Supporting Files */,
+			);
+			path = Mono;
+			sourceTree = "<group>";
+		};
+		41FCCCA81A7D3C8E0041DECF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				41FCCCAE1A7D3C8E0041DECF /* Main.storyboard */,
+				41FCCCB11A7D3C8E0041DECF /* Images.xcassets */,
+				41FCCCB31A7D3C8E0041DECF /* LaunchScreen.xib */,
+				41FCCCA91A7D3C8E0041DECF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		41FCCCBD1A7D3C8E0041DECF /* MonoTests */ = {
+			isa = PBXGroup;
+			children = (
+				41FCCCC01A7D3C8E0041DECF /* MonoTests.swift */,
+				41FCCCBE1A7D3C8E0041DECF /* Supporting Files */,
+			);
+			path = MonoTests;
+			sourceTree = "<group>";
+		};
+		41FCCCBE1A7D3C8E0041DECF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				41FCCCBF1A7D3C8E0041DECF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		411A37E51A7E548B00B0A182 /* Mono WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 411A38071A7E548B00B0A182 /* Build configuration list for PBXNativeTarget "Mono WatchKit Extension" */;
+			buildPhases = (
+				411A37E21A7E548B00B0A182 /* Sources */,
+				411A37E31A7E548B00B0A182 /* Frameworks */,
+				411A37E41A7E548B00B0A182 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				411A37F61A7E548B00B0A182 /* PBXTargetDependency */,
+			);
+			name = "Mono WatchKit Extension";
+			productName = "Mono WatchKit Extension";
+			productReference = 411A37E61A7E548B00B0A182 /* Mono WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		411A37F21A7E548B00B0A182 /* Mono WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 411A38061A7E548B00B0A182 /* Build configuration list for PBXNativeTarget "Mono WatchKit App" */;
+			buildPhases = (
+				411A37F11A7E548B00B0A182 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mono WatchKit App";
+			productName = "Mono WatchKit App";
+			productReference = 411A37F31A7E548B00B0A182 /* Mono WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+		41FCCCA41A7D3C8E0041DECF /* Mono */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41FCCCC41A7D3C8E0041DECF /* Build configuration list for PBXNativeTarget "Mono" */;
+			buildPhases = (
+				41FCCCA11A7D3C8E0041DECF /* Sources */,
+				41FCCCA21A7D3C8E0041DECF /* Frameworks */,
+				41FCCCA31A7D3C8E0041DECF /* Resources */,
+				411A38081A7E548B00B0A182 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				411A38001A7E548B00B0A182 /* PBXTargetDependency */,
+			);
+			name = Mono;
+			productName = Mono;
+			productReference = 41FCCCA51A7D3C8E0041DECF /* Mono.app */;
+			productType = "com.apple.product-type.application";
+		};
+		41FCCCB91A7D3C8E0041DECF /* MonoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41FCCCC71A7D3C8E0041DECF /* Build configuration list for PBXNativeTarget "MonoTests" */;
+			buildPhases = (
+				41FCCCB61A7D3C8E0041DECF /* Sources */,
+				41FCCCB71A7D3C8E0041DECF /* Frameworks */,
+				41FCCCB81A7D3C8E0041DECF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				41FCCCBC1A7D3C8E0041DECF /* PBXTargetDependency */,
+			);
+			name = MonoTests;
+			productName = MonoTests;
+			productReference = 41FCCCBA1A7D3C8E0041DECF /* MonoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		41FCCC9D1A7D3C8E0041DECF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Tomorrow Dev";
+				TargetAttributes = {
+					411A37E51A7E548B00B0A182 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					411A37F21A7E548B00B0A182 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					41FCCCA41A7D3C8E0041DECF = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					41FCCCB91A7D3C8E0041DECF = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 41FCCCA41A7D3C8E0041DECF;
+					};
+				};
+			};
+			buildConfigurationList = 41FCCCA01A7D3C8E0041DECF /* Build configuration list for PBXProject "Mono" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 41FCCC9C1A7D3C8E0041DECF;
+			productRefGroup = 41FCCCA61A7D3C8E0041DECF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				41FCCCA41A7D3C8E0041DECF /* Mono */,
+				41FCCCB91A7D3C8E0041DECF /* MonoTests */,
+				411A37E51A7E548B00B0A182 /* Mono WatchKit Extension */,
+				411A37F21A7E548B00B0A182 /* Mono WatchKit App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		411A37E41A7E548B00B0A182 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				411A37F01A7E548B00B0A182 /* Images.xcassets in Resources */,
+				411A37F41A7E548B00B0A182 /* Mono WatchKit App.app in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		411A37F11A7E548B00B0A182 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				411A37FC1A7E548B00B0A182 /* Interface.storyboard in Resources */,
+				411A37FE1A7E548B00B0A182 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41FCCCA31A7D3C8E0041DECF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41FCCCB01A7D3C8E0041DECF /* Main.storyboard in Resources */,
+				41FCCCB51A7D3C8E0041DECF /* LaunchScreen.xib in Resources */,
+				41FCCCB21A7D3C8E0041DECF /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41FCCCB81A7D3C8E0041DECF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		411A37E21A7E548B00B0A182 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				411A37EE1A7E548B00B0A182 /* NotificationController.swift in Sources */,
+				4159AC2D1A7E64C200ECA5D4 /* MOMonoManager.swift in Sources */,
+				411A37EC1A7E548B00B0A182 /* MOMainIC.swift in Sources */,
+				41FCEC461A86787C00A008FE /* MOLevelsIC.swift in Sources */,
+				4126B9831A7E973A0017BD6B /* RLMSupport.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41FCCCA11A7D3C8E0041DECF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41FCCCAD1A7D3C8E0041DECF /* MOMainVC.swift in Sources */,
+				41FCCCCD1A7D3CBE0041DECF /* RLMSupport.swift in Sources */,
+				4174EBD11A7D3D830056F101 /* MOMonoManager.swift in Sources */,
+				41FCCCAB1A7D3C8E0041DECF /* MOAppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41FCCCB61A7D3C8E0041DECF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41FCCCC11A7D3C8E0041DECF /* MonoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		411A37F61A7E548B00B0A182 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 411A37F21A7E548B00B0A182 /* Mono WatchKit App */;
+			targetProxy = 411A37F51A7E548B00B0A182 /* PBXContainerItemProxy */;
+		};
+		411A38001A7E548B00B0A182 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 411A37E51A7E548B00B0A182 /* Mono WatchKit Extension */;
+			targetProxy = 411A37FF1A7E548B00B0A182 /* PBXContainerItemProxy */;
+		};
+		41FCCCBC1A7D3C8E0041DECF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 41FCCCA41A7D3C8E0041DECF /* Mono */;
+			targetProxy = 41FCCCBB1A7D3C8E0041DECF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		411A37FA1A7E548B00B0A182 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				411A37FB1A7E548B00B0A182 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+		41FCCCAE1A7D3C8E0041DECF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41FCCCAF1A7D3C8E0041DECF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		41FCCCB31A7D3C8E0041DECF /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41FCCCB41A7D3C8E0041DECF /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		411A38021A7E548B00B0A182 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Mono WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		411A38031A7E548B00B0A182 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "Mono WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		411A38041A7E548B00B0A182 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = Mono_WatchKit_Extension;
+				INFOPLIST_FILE = "Mono WatchKit App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		411A38051A7E548B00B0A182 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				IBSC_MODULE = Mono_WatchKit_Extension;
+				INFOPLIST_FILE = "Mono WatchKit App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		41FCCCC21A7D3C8E0041DECF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		41FCCCC31A7D3C8E0041DECF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		41FCCCC51A7D3C8E0041DECF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = Mono/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		41FCCCC61A7D3C8E0041DECF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = Mono/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		41FCCCC81A7D3C8E0041DECF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MonoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mono.app/Mono";
+			};
+			name = Debug;
+		};
+		41FCCCC91A7D3C8E0041DECF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MonoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mono.app/Mono";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		411A38061A7E548B00B0A182 /* Build configuration list for PBXNativeTarget "Mono WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				411A38041A7E548B00B0A182 /* Debug */,
+				411A38051A7E548B00B0A182 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		411A38071A7E548B00B0A182 /* Build configuration list for PBXNativeTarget "Mono WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				411A38021A7E548B00B0A182 /* Debug */,
+				411A38031A7E548B00B0A182 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41FCCCA01A7D3C8E0041DECF /* Build configuration list for PBXProject "Mono" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41FCCCC21A7D3C8E0041DECF /* Debug */,
+				41FCCCC31A7D3C8E0041DECF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41FCCCC41A7D3C8E0041DECF /* Build configuration list for PBXNativeTarget "Mono" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41FCCCC51A7D3C8E0041DECF /* Debug */,
+				41FCCCC61A7D3C8E0041DECF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41FCCCC71A7D3C8E0041DECF /* Build configuration list for PBXNativeTarget "MonoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41FCCCC81A7D3C8E0041DECF /* Debug */,
+				41FCCCC91A7D3C8E0041DECF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 41FCCC9D1A7D3C8E0041DECF /* Project object */;
+}
